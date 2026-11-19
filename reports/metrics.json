@@ -1,0 +1,62 @@
+{
+    "accuracy": 0.9334517548442525,
+    "macro_precision": 0.6099074855724071,
+    "macro_recall": 0.9222757542449356,
+    "macro_f1": 0.6131496517396303,
+    "weighted_precision": 0.9953975046128324,
+    "weighted_recall": 0.9334517548442525,
+    "weighted_f1": 0.9620036650832123,
+    "classification_report": {
+        "BENIGN": {
+            "precision": 0.9988967758487984,
+            "recall": 0.9116033310699541,
+            "f1-score": 0.9532557731466557,
+            "support": 128127.0
+        },
+        "Bot": {
+            "precision": 0.06478071643789755,
+            "recall": 0.9923076923076923,
+            "f1-score": 0.12162162162162163,
+            "support": 390.0
+        },
+        "DDoS": {
+            "precision": 0.9991013518793467,
+            "recall": 0.9987501464672108,
+            "f1-score": 0.9989257183038068,
+            "support": 25603.0
+        },
+        "Infiltration": {
+            "precision": 0.0009139097057210748,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.0018254837531945967,
+            "support": 7.0
+        },
+        "PortScan": {
+            "precision": 0.9858446739902716,
+            "recall": 0.9944318870941066,
+            "f1-score": 0.990119661872873,
+            "support": 18139.0
+        },
+        "accuracy": 0.9334517548442525,
+        "macro avg": {
+            "precision": 0.6099074855724071,
+            "recall": 0.9222757542449356,
+            "f1-score": 0.6131496517396303,
+            "support": 172266.0
+        },
+        "weighted avg": {
+            "precision": 0.9953975046128324,
+            "recall": 0.9334517548442525,
+            "f1-score": 0.9620036650832123,
+            "support": 172266.0
+        }
+    },
+    "class_names": [
+        "BENIGN",
+        "Bot",
+        "DDoS",
+        "Infiltration",
+        "PortScan"
+    ],
+    "evaluation_notes": "Honest note: The 'Infiltration' attack class has an extremely low sample count in CICIDS2017 (~36 rows in total dataset). Consequently, test metrics for Infiltration exhibit high statistical variance and should be interpreted as exploratory rather than definitively hardened."
+}
