@@ -1,0 +1,48 @@
+{
+    "model_name": "RandomForestClassifier",
+    "best_params": {
+        "max_depth": 10,
+        "min_samples_split": 5,
+        "n_estimators": 50
+    },
+    "selected_features": [
+        "Bwd Packet Length Mean",
+        "Packet Length Variance",
+        "Average Packet Size",
+        "Bwd Packet Length Std",
+        "Subflow Fwd Bytes",
+        "Packet Length Mean",
+        "Avg Bwd Segment Size",
+        "Total Length of Fwd Packets",
+        "Fwd Packet Length Max",
+        "Total Length of Bwd Packets",
+        "Packet Length Std",
+        "Fwd Packet Length Mean",
+        "Avg Fwd Segment Size",
+        "Fwd Header Length",
+        "Bwd Packet Length Max",
+        "Max Packet Length",
+        "Total Fwd Packets",
+        "Bwd Header Length",
+        "act_data_pkt_fwd",
+        "PSH Flag Count"
+    ],
+    "class_names": [
+        "BENIGN",
+        "Bot",
+        "DDoS",
+        "Infiltration",
+        "PortScan"
+    ],
+    "training_date": "2026-11-07 10:56:00",
+    "best_balancing_strategy": "class_weight",
+    "train_set_size": 689062,
+    "test_set_size": 172266,
+    "test_metrics": {
+        "accuracy": 0.9334517548442525,
+        "macro_f1": 0.6131496517396303,
+        "macro_precision": 0.6099074855724071,
+        "macro_recall": 0.9222757542449356,
+        "weighted_f1": 0.9620036650832123
+    }
+}
