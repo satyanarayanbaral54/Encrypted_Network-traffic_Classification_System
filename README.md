@@ -1,5 +1,8 @@
 # Encrypted Network Traffic Classification System
 
+> **Disclaimer:** > Here is the Dataset Link - https://drive.google.com/drive/folders/1seFT9bRVHtn6e_H9XdL3uF9zml4aBHIU?usp=drive_link
+
+
 A production-grade, leak-free machine learning system designed to classify encrypted network flows and detect cyber threats using the **CICIDS2017** benchmark dataset.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
